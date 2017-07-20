@@ -61,7 +61,7 @@ def train_top_model():
     classes_dict = {'roses':0,
                     'dandelion':1,
                     'sunflowers':2,
-                    'tulilps':3,
+                    'tulips':3,
                     'daisy':4
                    }
     train_one_hot = np.zeros([len(train_y),5])
